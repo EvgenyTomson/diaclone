@@ -1,0 +1,148 @@
+.testimonuals {
+  margin: 0 auto;
+}
+
+.testimonuals__title {
+  width: 362px;
+  align-self: flex-start;
+}
+
+.testimonuals__heading-wrqapper {
+  display: flex;
+  gap: 16px;
+}
+
+.testimonuals__img {
+  display: inline-block;
+}
+
+.testimonuals__heading {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+
+.testimonuals__subtitle {
+  margin: 19px 0 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 45px */
+  color: #253757;
+}
+
+
+
+.testimonials__cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 314px;
+  height: 464px;
+  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+
+  z-index: 1;
+}
+
+
+.testimonial__card-decor {
+  position: relative;
+  top: 90px;
+  width: 162px;
+  height: 64px;
+  border-radius: 500px;
+  transform: rotate(-65deg);
+
+  z-index: -1;
+}
+
+.testimonial__card-decor_color_blue {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56CCF2;
+}
+
+.testimonials__card-photo {
+  margin-top: 45px;
+}
+
+.testimonials__card-text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14.4px;
+  line-height: 150%;
+  color: #253757;
+}
+
+.testimonials__card-line {
+  width: 64px;
+  height: 2px;
+  border-radius: 500px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.testimonials__card-line_color_blue {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56CCF2;
+}
+
+.testimonials__card-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.6px;
+  line-height: 150%;
+  /* identical to box height, or 19px */
+  color: #152032;
+}
+
+.testimonials__card-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 150%;
+  /* identical to box height, or 19px */
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.testimonials__card-title_color_blue {
+  color: #56CCF2;
+}
+
+.testimonial__card-decor_color_yellow {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #FCC304;
+}
+
+.testimonials__card-line_color_yellow {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #FCC304;
+}
+
+.testimonials__card-title_color_yellow {
+  color: #FCC304;
+}
+
+.testimonial__card-decor_color_red {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F25656;
+}
+
+.testimonials__card-line_color_red {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F25656;
+}
+
+.testimonials__card-title_color_red {
+  color: #F25656;
+}

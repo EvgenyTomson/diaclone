@@ -1,0 +1,28 @@
+/* @font-face {
+  src: url(../fonts/Mulish-Regular.ttf) format('truetype');
+  font-family: 'Mulish';
+  font-style: regelar;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/conainer/container.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/menu/menu.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/banner/banner.css);
+
+@import url(../blocks/wellcome/wellcome.css);
+
+@import url(../blocks/wedo/wedo.css);
+
+@import url(../blocks/process/process.css);
+
+@import url(../blocks/features/features.css);
+
+@import url(../blocks/testimonuals/testimonuals.css);

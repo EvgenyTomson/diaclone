@@ -1,0 +1,41 @@
+.wellcome {
+  margin: 165px auto 160px;
+}
+
+.wellcome__wrapper {
+  max-width: 742px;
+  margin: 0 auto;
+}
+
+.wellcome__title-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.wellcome__img {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+}
+
+.wellcome__title {
+  display: inline-block;
+  margin: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+
+.wellcome__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  color: #253757;
+}

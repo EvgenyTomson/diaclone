@@ -1,0 +1,192 @@
+.process {
+  /* background-color: #fcfdff; */
+  /* background-color: #FCFCFD; */
+  padding-top: 50px;
+}
+
+.process__wrapper {
+  position: relative;
+  top: 130px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.process__title {
+  width: 362px;
+  align-self: flex-start;
+}
+
+.process__heading-wrqapper {
+  display: flex;
+  gap: 16px;
+}
+
+.process__img {
+  display: inline-block;
+}
+
+.pocess__heading {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+
+.process__subtitle {
+  margin: 19px 0 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 45px */
+  color: #253757;
+}
+
+.process__text {
+  margin: 64px 0 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #334563;
+}
+
+.process__cards {
+  width: 538px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 58px;
+}
+
+.process__card {
+  position: relative;
+  width: 240px;
+  height: 389px;
+  background-repeat: no-repeat;
+  background-position: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.process__card:nth-child(odd) {
+  top: 110px;
+}
+
+.process__card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 240px;
+  height: 256px;
+  margin: 0;
+  padding: 0 32px;
+  background: #fff;
+  box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
+}
+
+.process__card_step_one {
+  background-image: url(../../img/process/rectangle_blue.png);
+  /* background-repeat: no-repeat;
+  background-position: 20px; */
+}
+
+.process__card-decor {
+  position: relative;
+  top: 34px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  opacity: 0.1;
+}
+
+.process__card-decor_step_one {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #56CCF2, #56CCF2), #C4C4C4;
+  /* opacity: 0.1; */
+}
+
+.process__card-title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 150%;
+  /* identical to box height, or 60px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.process__card-title_step_one {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56CCF2;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+.process__card-text {
+  margin: 6px 0 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.6px;
+  line-height: 150%;
+  color: #253757;
+}
+
+.process__card_step_two {
+  background-image: url(../../img/process/rectangle_yellow.png);
+}
+
+.process__card-decor_step_two {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #FCC304;
+}
+
+.process__card-title_step_two {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #FCC304;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.process__card_step_three {
+  background-image: url(../../img/process/rectangle_green.png);
+}
+
+.process__card-decor_step_three {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%),
+  linear-gradient(0deg, #03D542, #03D542), #C4C4C4;
+}
+
+.process__card-title_step_three {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #03D542;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.process__card_step_four {
+  background-image: url(../../img/process/rectangle_red.png);
+}
+
+.process__card-decor_step_four {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F25656;
+}
+
+.process__card-title_step_four {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F25656;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

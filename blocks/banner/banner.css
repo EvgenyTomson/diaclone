@@ -1,0 +1,147 @@
+.banner {
+  padding-top: 76px;
+}
+
+.banner__container {
+ margin: 0 auto;
+}
+
+
+.banner__info {
+  max-width: 754px;
+  margin-left: 98px;
+}
+
+.banner__title {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 150%;
+  /* identical to box height, or 96px */
+  color: #fff;
+}
+
+.banner__about {
+  padding: 0;
+  margin: 22px 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  color: #fff;
+}
+
+.banner__button {
+  display: flex;
+  margin-top: 42px;
+  width: 226px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  justify-content: center;
+  align-items: center;
+  /* identical to box height, or 24px */
+  text-align: center;
+  letter-spacing: 1px;
+  color: #253757;
+  background: #fff;
+  border-radius: 64px;
+  text-decoration: none;
+}
+
+
+.banner__slider-wrapper {
+  display: flex;
+  margin-top: 80px;
+}
+
+.banner__slider-item {
+  position: relative;
+}
+
+.banner__slider-image {
+
+}
+
+
+.banner__text-wrapper {
+  position: absolute;
+  max-width: 265px;
+  bottom: 86px;
+  left: 98px;
+}
+
+.banner__slider-title {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+
+.banner__slider-text {
+  padding: 0;
+  margin: 4px 0 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19.6px;
+  line-height: 140%;
+  color: #fff;
+}
+
+
+.banner__slider-buttons {
+  display: flex;
+  position: absolute;
+  top: calc(50% - 30px);
+  left: -52px;
+}
+
+.banner__slider-button {
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #FCC304;
+  width: 12px;
+  height: 24px;
+}
+
+.banner__slider-button_prev {
+  border-radius: 50% 0 0 50%;
+}
+
+.banner__slider-button_next {
+  border-radius: 0 50% 50% 0;
+}
+
+
+.banner__social-menu {
+  writing-mode: vertical-rl;
+  display: flex;
+  justify-content: center;
+  gap: 85px;
+  list-style: none;
+  margin: 0 0 0 64px;
+}
+
+.banner__social-menu-item {
+
+}
+
+.banner__social-menu-link {
+  text-decoration: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 150%;
+  /* identical to box height, or 19px */
+  color: #253757;
+}
