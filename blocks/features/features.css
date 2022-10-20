@@ -21,6 +21,7 @@
 } */
 
 .features__container {
+  position: relative;
   margin: 0 auto;
 }
 
@@ -93,13 +94,15 @@
 
 
 .features__blob {
-  /* position: relative; */
-  /* left: 750px;
+  /* position: relative;
+  left: 750px;
   top: -500px; */
   position: absolute;
+  left: 780px;
+  top: 145px;
 
-  left: 935px;
-  top: 355px;
+  /* left: 935px;
+  top: 355px; */
 
   width: 1599px;
   height: 729px;
