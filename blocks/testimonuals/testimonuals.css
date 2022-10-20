@@ -1,9 +1,9 @@
 .testimonuals {
   position: relative;
+  z-index: 1;
+
   margin: 0 auto;
   padding: 165px 0 0;
-
-  z-index: 1;
 }
 
 .testimonuals__title {
@@ -60,6 +60,7 @@
   text-align: center;
   width: 314px;
   height: 464px;
+  background-color: #fff;
   box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
 }
 
