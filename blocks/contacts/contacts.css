@@ -1,0 +1,139 @@
+.contacts {
+  padding-top: 96px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .contacts__column {
+} */
+
+.contacts__column_type_form {
+  display: flex;
+  flex-direction: column;
+  width: 656px;
+}
+
+.contacts__heading-wrqapper {
+  display: flex;
+  gap: 16px;
+}
+
+.contacts__heading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+/*
+.contacts__form {
+} */
+
+.contacts__input {
+  position: relative;
+  width: 656px;
+  height: 41px;
+  border: 0;
+  border-bottom: 1px solid #E1E1E1;
+  background-color: #FCFCFD;
+  margin: 0;
+  margin-top: 48px;
+}
+
+.contacts__input:first-of-type {
+  margin-top: 104px;
+}
+
+.contacts__input::placeholder {
+  position: absolute;
+  top: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.4px;
+  line-height: 150%;
+  /* identical to box height, or 22px */
+  color: #152032;
+}
+
+.contacts__submit {
+  padding: 16px 92px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background-color: #2F80ED;
+  border-radius: 64px;
+  outline: 0;
+  border: 0;
+  margin: 105px 0 0;
+  cursor: pointer;
+}
+
+.contacts__column_type_info {
+  width: 362px;
+}
+
+.contacts__subtitle {
+  margin: 19px 0 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 45px */
+  color: #253757;
+}
+
+.contacts__text {
+  margin: 42px 0 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 150%;
+  /* identical to box height, or 19px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #334563;
+}
+
+.contacts__dates {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #56CCF2;
+}
+
+.contacts__socials {
+  margin-top: 51px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.contacts__link {
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: .2s linear;
+}
+
+.contacts__link:hover {
+  transform: scale(1.25);
+}
+
+.contacts__social-icon {
+  width: 32px;
+  height: 32px;
+}

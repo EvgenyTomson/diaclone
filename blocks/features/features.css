@@ -1,8 +1,12 @@
 .features {
+  position: relative;
+
   background-image: url(../../img/features_bg.png);
   background-repeat: no-repeat;
   background-position: top center;
   padding-top: 192px;
+
+  z-index: 1;
 }
 
 /* .features::before {
@@ -89,16 +93,20 @@
 
 
 .features__blob {
-  position: relative;
+  /* position: relative; */
+  /* left: 750px;
+  top: -500px; */
+  position: absolute;
+
+  left: 935px;
+  top: 355px;
+
   width: 1599px;
   height: 729px;
-
-  left: 750px;
-  top: -500px;
 
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #03D542;
   border-radius: 500px;
   transform: rotate(-65.1deg);
 
-  /* z-index: -1; */
+  z-index: -1;
 }

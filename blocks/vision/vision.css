@@ -1,0 +1,47 @@
+.vision {
+  padding: 160px 0;
+  background-image: url(../../img/vision/vision_bg.png);
+  background-position: center;
+  background-position-y: 35px;
+  background-repeat: no-repeat;
+}
+
+.vision__container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vision__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 100%;
+  /* identical to box height, or 48px */
+  color: #253757;
+}
+
+.vision__text {
+  margin: 57px auto 55px;
+  width: 754px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  color: #334563;
+}
+.vision__button {
+  padding: 16px 88px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background-color: #2F80ED;
+  border-radius: 64px;
+  text-decoration: none;
+  cursor: pointer;
+}

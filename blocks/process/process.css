@@ -1,7 +1,8 @@
 .process {
-  /* background-color: #fcfdff; */
-  /* background-color: #FCFCFD; */
+  position: relative;
   padding-top: 50px;
+
+  z-index: 2;
 }
 
 .process__wrapper {
@@ -111,8 +112,8 @@
 }
 
 .process__card-decor_step_one {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #56CCF2, #56CCF2), #C4C4C4;
-  /* opacity: 0.1; */
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%),
+  linear-gradient(0deg, #56CCF2, #56CCF2), #C4C4C4;
 }
 
 .process__card-title {

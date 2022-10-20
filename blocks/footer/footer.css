@@ -1,0 +1,40 @@
+.footer {
+  margin: 0 auto;
+  padding: 136px 0 83px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  color: #253757;
+}
+
+.footer__menu-item {
+  margin: 0;
+  padding: 5px;
+}
+
+.footer__menu-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  color: #253757;
+}
+
+.footer__menu-item:hover {
+  background-position: bottom;
+  background-image: url(../../img/underline.svg);
+  /* background-position-y: 30px; */
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: 64px 4px;
+}

@@ -1,5 +1,9 @@
 .testimonuals {
+  position: relative;
   margin: 0 auto;
+  padding: 165px 0 0;
+
+  z-index: 1;
 }
 
 .testimonuals__title {
@@ -45,7 +49,8 @@
 
 .testimonials__cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 78px;
 }
 
 .testimonial__card {
@@ -56,8 +61,6 @@
   width: 314px;
   height: 464px;
   box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
-
-  z-index: 1;
 }
 
 
