@@ -64,11 +64,6 @@
   position: relative;
 }
 
-.banner__slider-image {
-
-}
-
-
 .banner__text-wrapper {
   position: absolute;
   max-width: 265px;
@@ -102,8 +97,11 @@
 .banner__slider-buttons {
   display: flex;
   position: absolute;
-  top: calc(50% - 30px);
+  /* top: calc(50% - 30px); */
+  top: 50%;
   left: -52px;
+
+  z-index: 2;
 }
 
 .banner__slider-button {
@@ -123,16 +121,16 @@
 
 
 .banner__social-menu {
+  position: absolute;
+  top: 130px;
+  left: 1160px;
+
   writing-mode: vertical-rl;
   display: flex;
   justify-content: center;
   gap: 85px;
   list-style: none;
   margin: 0 0 0 64px;
-}
-
-.banner__social-menu-item {
-
 }
 
 .banner__social-menu-link {
